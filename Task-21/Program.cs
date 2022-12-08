@@ -1,0 +1,14 @@
+﻿Console.Clear();
+Console.Write("Введите координат x 1-ой точки: ");
+double x1 = Convert.ToDouble(Console.ReadLine());
+Console.Write("Введите координат y 1-ой точки: ");
+double y1 = Convert.ToDouble(Console.ReadLine());
+Console.Write("Введите координат z 1-ой точки: ");
+double z1 = Convert.ToDouble(Console.ReadLine());
+Console.Write("Введите координат x 2-ой точки: ");
+double x2 = Convert.ToDouble(Console.ReadLine());
+Console.Write("Введите координат y 2-ой точки: ");
+double y2 = Convert.ToDouble(Console.ReadLine());
+Console.Write("Введите координат z 2-ой точки: ");
+double z2 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine(Math.Round(Math.Sqrt(Math.Pow(x1 - x2, 2) + Math.Pow(y1 - y2, 2) + Math.Pow(z1 - z2, 2)), 2));
